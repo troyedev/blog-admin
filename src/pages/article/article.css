@@ -1,0 +1,57 @@
+.edit-article {
+  height: 100vh;
+}
+.edit-article .header {
+  padding: 10px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.edit-article .nav {
+  display: flex;
+  padding: 6px 20px;
+}
+.edit-article .nav .iconfont {
+  display: inline-block;
+  margin: 0 4px;
+  padding: 0px 4px;
+  font-size: 26px;
+  border-radius: 4px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.edit-article .nav .iconfont:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.edit-article .nav .iconfont.nav-lg {
+  font-size: 31px;
+}
+.edit-article .nav .iconfont.nav-sm {
+  font-size: 24px;
+}
+.edit-article .editor {
+  box-sizing: border-box;
+  padding-top: 10px;
+  height: calc(100vh - 102px);
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+.edit-article .editor .markdown-body {
+  padding: 0 20px;
+  width: 50%;
+  overflow: auto;
+  border-left: 1px solid #ccc;
+}
+.edit-article .editor .markdown-body img {
+  max-width: 95%;
+}
+
+.article-detail img {
+  max-width: 95%;
+}
+.dark .article-detail .markdown-navbar .title-anchor{
+  @apply text-neutral-200;
+}
+.dark .article-detail .markdown-navbar .title-anchor:hover {
+  @apply text-black;
+}

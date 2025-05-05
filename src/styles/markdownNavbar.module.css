@@ -1,0 +1,11 @@
+/* 暗色模式 */
+
+.markdownNav :global(.title-anchor) {
+  color: rgb(229 231 235 / var(--tw-text-opacity)) !important;
+}
+.markdownNav :global(.title-anchor):hover {
+  background: rgba(0,0,0,.5) !important;
+}
+.markdownNav :global(.active) {
+  background: rgba(0,0,0,.5) !important;
+}
